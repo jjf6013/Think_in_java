@@ -1,9 +1,9 @@
 package c07.innerscopes;
 
 public class Parcel8 {
-    public Destination dest(final String dest){
+    public Destination dest(final String s){
         return new Destination() {
-            private String label = dest;
+            private String label = s;
             @Override
             public String readLabel() {
                 return label;
