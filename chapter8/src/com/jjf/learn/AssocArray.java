@@ -15,7 +15,7 @@ public class AssocArray extends Dictionary{
     }
 
     public Object put(Object key, Object value){
-        keys.addElement(keys);
+        keys.addElement(key);
         values.addElement(value);
         return key;
     }
